@@ -38,5 +38,9 @@ print('tax=', tax, sep='')
 
 # Проверка условия if для присваивания
 
+cool_car = 0
+cool_car = 1 if sunroof == 1 else 0
+
+print(cool_car)
 
 
